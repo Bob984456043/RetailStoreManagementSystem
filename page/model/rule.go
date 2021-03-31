@@ -1,12 +1,10 @@
 package model
 
-import "github.com/guregu/null"
-
 type Rule struct {
-	UpdateTime null.Time `gorm:"column:update_time" json:"update_time"`
-	V0         string    `gorm:"column:v0" json:"v0"`
-	V1         string    `gorm:"column:v1" json:"v1"`
-	CreateTime null.Time `gorm:"column:create_time" json:"create_time"`
+	UpdateTime int64 `gorm:"column:update_time" json:"update_time"`
+	RoleId         int64    `gorm:"column:role_id" json:"role_id"`
+	PermissionId         int64    `gorm:"column:permission_id" json:"permission_id"`
+	CreateTime int64 `gorm:"column:create_time" json:"create_time"`
 	ID         int64     `gorm:"column:id;primary_key" json:"id"`
 }
 

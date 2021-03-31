@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="870c8732-8bce-41c5-8128-2b7bb7a77f4b" name="Default Changelist" comment="" />
+    <list default="true" id="870c8732-8bce-41c5-8128-2b7bb7a77f4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RetailStoreManagementSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fuckdb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/order.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/orderSku.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/permission.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/role.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/rule.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/shop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/sku.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/spu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/stock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/stockRecord.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/role.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/shop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/sku.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/spu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/stock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/service/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/common.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +55,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pguX4kxoeQZ4UZmLRJA16pIAoa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +65,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,18 +83,67 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="sku.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="066109b7-3cbb-469c-b4b8-dcdbe8b8093d/schema/retail_store_management/table/sku.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.sku.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="780" y="261" key="#Plugins" timestamp="1616490674773">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="780" y="261" key="#Plugins/0.23.2560.1351/-2560.23.2560.1417@0.23.2560.1351" timestamp="1616490674773" />
+    <state x="880" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616313537600">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="880" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/-2560.23.2560.1346@0.23.2560.1417" timestamp="1616313537600" />
+    <state x="1616" y="494" key="Diagram.Print.Preview.Dialog" timestamp="1616328204317">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1616" y="494" key="Diagram.Print.Preview.Dialog/0.23.2560.1417/-2560.23.2560.1346@0.23.2560.1417" timestamp="1616328204317" />
+    <state width="350" height="691" key="HiddenNamespacesPopup" timestamp="1616313542570">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="350" height="691" key="HiddenNamespacesPopup/0.23.2560.1417/-2560.23.2560.1346@0.23.2560.1417" timestamp="1616313542570" />
     <state x="679" y="244" key="SettingsEditor" timestamp="1615963850406">
       <screen x="0" y="23" width="2560" height="1343" />
     </state>
     <state x="679" y="244" key="SettingsEditor/0.23.2560.1342/-2560.23.2560.1417@0.23.2560.1342" timestamp="1615892855756" />
     <state x="679" y="244" key="SettingsEditor/0.23.2560.1343/-2560.23.2560.1417@0.23.2560.1343" timestamp="1615963850406" />
+    <state x="718" y="444" width="634" height="422" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616334852220">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="718" y="444" width="634" height="422" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.2560.1417/-2560.23.2560.1346@0.23.2560.1417" timestamp="1616334852220" />
+    <state x="1067" y="435" width="426" height="440" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.2560.1417/-2560.23.2560.1347@0.23.2560.1417" timestamp="1616330943451" />
+    <state x="1064" y="372" key="data.grid.dml.preview.dialog" timestamp="1616328150382">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1064" y="372" key="data.grid.dml.preview.dialog/0.23.2560.1417/-2560.23.2560.1346@0.23.2560.1417" timestamp="1616328150382" />
   </component>
 </project>
